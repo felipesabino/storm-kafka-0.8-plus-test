@@ -31,6 +31,8 @@ If you are using a Mac follow the instructions [here](https://docs.docker.com/in
 
 ##Build for running locally:
 
+- Install `maven`: `$ brew install maven` If you receive a `404`, run `$ brew update`
+
 - ```mvn clean package```
 
 ##Build for running on a Storm cluster:
