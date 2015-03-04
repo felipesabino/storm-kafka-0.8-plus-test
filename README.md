@@ -63,6 +63,12 @@ Alternatively use the kafka console producer from within the kafka shell (see ab
 
 - ```$KAFKA_HOME/bin/kafka-console-producer.sh --topic=storm-sentence --broker-list=<dockerIp>:<kafkaPort>```
 
+Using the `node.js` producer
+
+- `$ npm install`
+- `$ node producer.js`
+
+
 ##Consuming data
 
 To run a DRPC query, start the DrpcClient (built in local mode)
